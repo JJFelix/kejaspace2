@@ -1,0 +1,59 @@
+.name-tag{
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+
+}
+
+.nav {
+
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    /* font-weight: bold; */
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+.text-white{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-image{
+    width: 60px;
+    height: 58px;
+    border-radius: 2.5px;
+}
+
+/* .user-actions {
+    margin-left: auto; 
+    background-color: aqua;
+} */
+
+/* .user-actions a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-size: small;
+} */
+
+@media screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-white{
+        flex-direction: row;
+        align-items: center;
+    }
+}
